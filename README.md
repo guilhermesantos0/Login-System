@@ -1,5 +1,7 @@
 <h1>Um sistema de login desenvolvido em PHP</h1>
 
+<h3>AVISO: O projeto foi desenvolvido seguindo a pilha WAMP (Windows, Apache, MySql e PHP), portanto, é necessário que estes esteham funcionando!</h3>
+
 <h3>Este sistema foi desenvolvido para estudo, portanto, não está filiado à nenhuma empresa/organização!<br>Está permitido o uso deste produto, porém, <strong>sua comercialização está PROIBIDA</strong></h3>
 <h3>Seguem previews de alguns sistemas:</h3>
 <h4>Tela inicial</h4>
