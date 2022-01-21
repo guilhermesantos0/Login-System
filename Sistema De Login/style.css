@@ -1,0 +1,143 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 3vh 11vh;
+    background-color: transparent;
+}
+
+#cadastro a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 3vh 7vh;
+    background-color: transparent;
+}
+
+#container{
+    margin-top: 23vh;
+    height: 50vh;
+    width: 70vh;
+    background: linear-gradient(75deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.205) 50%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#container #textArea{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(48, 48, 48);
+    font-size: 2.5vh;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#container #textArea r{
+    background: radial-gradient(ellipse farthest-corner at 90% 90%, red, rgb(163, 9, 9) 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#container #buttonsArea{
+
+    margin-top: 8vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#container #buttonsArea button{
+    color: aliceblue;
+
+    width: 30vh;
+    height: 8vh;
+    font-size: 2.5vh;
+
+    background: linear-gradient(90deg, rgb(20, 20, 223), rgb(0, 81, 255));
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+#container #buttonsArea .area{
+    display: flex;
+    flex-direction: column;
+}
+
+#container #buttonsArea .area span{
+    padding-left: 1.5vh;
+    padding-bottom: 1vh;
+}
+
+#container #buttonsArea button:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+#container #buttonsArea button:active{
+    opacity: .6;
+}
+
+#socialMedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialMedia #socialMediasAreas{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2vh;
+}
+
+#socialMedia #socialMediasAreas ul{
+    list-style: none;
+}
+
+#socialMedia #socialMediasAreas ul li{
+    padding: .5vh;
+}
+
+#socialMedia #socialMediasAreas ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.fa-instagram{
+    color: purple;
+}
+
+.fa-twitter{
+    color: rgb(0, 217, 255);
+}
+
+.fa-facebook-f{
+    color: blue;
+}
+
+.fa-discord{
+    color: rgb(57, 89, 121);
+}

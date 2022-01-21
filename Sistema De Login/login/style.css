@@ -1,0 +1,142 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+body{
+    background-image: url(../background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#voltar a{
+    color: red;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#cadastro a{
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#loginArea{
+    margin-top: 15vh;
+    height: 50vh;
+    width: 40vh;
+    background: linear-gradient(75deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.205) 50%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#loginArea .area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loginArea .area label{
+    padding-bottom: 1vh;
+}
+
+#loginArea .area input{
+    border: none;
+    outline: none;
+    width: 35vh;
+    height: 4vh;
+    padding-left: 1vh;
+    transition: .3s all ease-in-out;
+    background-color: rgba(240, 248, 255, 0.123);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#loginArea .area input:focus{
+    background-color: rgba(240, 248, 255, 0.466);
+}
+
+#loginArea .area input::placeholder{
+    color: rgba(0, 0, 0, 0.507);
+}
+
+#loginArea .area .line{
+    margin-top: 1px;
+    height: 2px;
+    width: 0px;
+    background: black;
+    display: inline-block;
+    transition: .3s width ease-in-out;
+    position: relative;
+}
+
+#loginArea .area input:focus+.line{
+    width: 36vh;
+}
+
+#loginArea #otherOptions{
+    width: 30vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#loginArea #cadastro p:hover{
+    text-decoration: underline;
+}
+
+#loginArea #passwordRecovery a{
+    color: aqua;
+    text-decoration: none;
+}
+
+input[type="submit"]{
+    color: aliceblue;
+
+    width: 35vh;
+    height: 4vh;
+
+    background: linear-gradient(90deg, rgb(20, 20, 223), rgb(0, 81, 255));
+    border: 1.5px solid grey;
+    border-radius: 10px;
+
+    transition: all .4s ease-in-out;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    opacity: .8;
+    border-radius: 3px;
+}
+
+.message{
+    margin-top: 2vh;
+}
+
+#succes{
+    background: linear-gradient(90deg,rgba(0, 184, 0, 0.301),rgba(1, 126, 1, 0.301));
+    border: 2px solid rgba(0, 128, 0, 0.712);
+    width: 30vh;
+    padding: 1vh;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#error{
+    background: linear-gradient(90deg,rgba(184, 0, 0, 0.301),rgba(126, 1, 1, 0.301));
+    border: 2px solid rgba(128, 0, 0, 0.712);
+    width: 30vh;
+    padding: 1vh;
+    text-align: center;
+    border-radius: 3px;
+}
